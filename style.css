@@ -1,0 +1,81 @@
+/* ---GENERAL--- */
+
+* {
+  width: 90%;
+  margin: auto;
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+h3 {
+  margin-right: 10px;
+  margin-left: 250px;
+  margin-bottom: 5px;
+}
+
+img {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+}
+
+/* ---BUTTONS--- */
+button {
+  color: white;
+  background-color: #967bb6;
+  margin: 15px;
+  margin-bottom: 20px;
+  width: auto;
+  border-radius: 15px;
+}
+
+/* ---DIVS--- */
+
+#day-section {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+  color: blue;
+}
+
+#slot-section {
+  margin-left: 265px;
+}
+
+#submit {
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+#session-section {
+  width: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.radioButtons {
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+
+/* ---TABLES--- */
+
+table,
+th,
+td,
+tr {
+  margin: auto;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+  width: 15px;
+}
+
+#slotSelect {
+  width: 10%;
+  margin: auto;
+}

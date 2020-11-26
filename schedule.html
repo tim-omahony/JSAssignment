@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <img src="images/bannerImage.jpg" />
+  <script src="script.js"></script>
+  <body>
+    <head>
+      <meta charset="utf-8" />
+      <title>CHI2020</title>
+    </head>
+    <div id="day-section"></div>
+    <div id="slot-section">
+      <label for="slots"></label>
+      <select name="slots" id="slotSelect"></select>
+    </div>
+    <button id="submit" onclick="loadSessions()">Submit</button>
+
+    <h3>Filter Session Results</h3>
+    <div class="radioButtons">
+      <form>
+        <input
+          type="radio"
+          id="paper"
+          name="sessionType"
+          value="paper"
+          onclick="filter('paper')"
+        />
+        <label for="paper">Paper</label><br />
+        <input
+          type="radio"
+          id="nonPaper"
+          name="sessionType"
+          value="nonPaper"
+          onclick="filter()"
+        />
+        <label for="nonPaper">Non-paper Sessions</label><br />
+        <input
+          type="radio"
+          id="allSessions"
+          name="sessionType"
+          value="allSessions"
+          onclick="loadSessions()"
+        />
+        <label for="allSessions">All Sessions</label>
+      </form>
+    </div>
+    <div id="submission-section"></div>
+    <div id="session-section"></div>
+  </body>
+</html>
